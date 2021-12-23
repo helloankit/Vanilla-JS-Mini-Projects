@@ -1,0 +1,38 @@
+body{
+    margin:0;
+}
+
+.slider-container{
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+}
+
+.slide{
+    display:none;
+    position: absolute;
+    width: 100vw;
+    height: 25rem;
+    /* background-color: azure; */
+    text-align: center;
+    margin: auto;
+}
+
+.active{
+    display: block;
+}
+
+#prev{
+    position: absolute;
+    top:50%;
+    left:5rem;
+    cursor: pointer;
+}
+
+#next{
+    position: absolute;
+    top:50%;
+    right: 5rem;
+    cursor: pointer;
+}
+
